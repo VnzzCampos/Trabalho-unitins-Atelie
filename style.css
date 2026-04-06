@@ -1,0 +1,208 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.Cabeçalho{
+  background-color: #752a2a;
+  width: auto;
+  height: 211.172px;
+}
+.Cabeçalho h1{
+  font-family: "Inter:Bold", sans-serif;
+  text-align: center;
+  font-size: 64px;
+  padding-top: 40px;
+  color: #d0a95c;
+  letter-spacing: -1.6px;
+}
+
+.Cabeçalho p{
+  font-family: "Inter:Medium", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 20px;
+  color: #ffffff;
+  letter-spacing: -0.12px;
+  word-break: break-word;
+}
+nav ul {
+  font-size: 24px;
+  list-style: none; 
+  display: flex; 
+  justify-content: right; 
+  gap: 30px; 
+  padding: 10;
+  padding-right: 100px;
+  margin: -70px 0;
+}
+
+nav a {
+  text-decoration: none; 
+  color: white; 
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #facc15; 
+}
+#fundo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.Sobre{
+  text-align: center;
+}
+.Sobre h1{
+  font-size: 64px;
+  color: #752a2a;
+  font-family: "Inter:Bold", sans-serif;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.Sobre p{
+  font-size: 24px;
+  color: black;
+  font-family: "Inter:Medium", sans-serif;
+}
+#Produtos{
+  text-align: center;
+}
+#Produtos h1{
+  font-size: 64px;
+  color: #752a2a;
+  font-family: "Inter:Bold", sans-serif;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+#Produtos p{
+  font-size: 24px;
+  color: black;
+  font-family: "Inter:Medium", sans-serif;
+}
+.carrossel {
+  width: 600px;
+  margin: auto;
+  overflow: hidden;
+  
+}
+
+
+input {
+  display: none;
+}
+
+
+.slides {
+  display: flex;
+  width: 400%;
+  transition: 0.5s;
+}
+
+.slides img {   
+  width: 650px;
+  height: 650px;
+  
+}
+
+
+#img1:checked ~ .slides { margin-left: 0; }
+#img2:checked ~ .slides { margin-left: -100%; }
+#img3:checked ~ .slides { margin-left: -200%; }
+#img4:checked ~ .slides { margin-left: -300%; }
+
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.botoes label {
+  width: 12px;
+  height: 12px;
+  background: gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.botoes label:hover {
+  background: #facc15;
+}
+.Contato{
+  text-align: center;
+  padding-left: 36px;
+}
+.Contato h1{
+  font-size: 40px;
+  color: #000000;
+  font-family: "Inter:Bold", sans-serif;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+.Contato p{
+  font-size: 14px;
+  color: black;
+  font-family: "Inter:Medium", sans-serif;
+  padding-bottom: 30px;
+}
+.botao {
+  background-color: #d0a95c;
+  color: #752a2a;
+  padding: 14px 40px;
+  border-radius: 18px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.botao:hover {
+  background-color: #e9c120;
+  color: black;
+}
+.insta{
+  padding-top: 100px;
+}
+.footer-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-container section {
+  flex: 1;
+  background: #f5f5f5;
+  padding: 90px;
+  border-radius: 60px;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.footer-container section h1{
+  margin-top: 30px;
+  color: #752a2a;
+}
+
+.footer-container label:hover {
+  background: #facc15;
+}
+.Direitos{
+  margin-top: 50px;
+  background-color: #752a2a;
+  width: auto;
+  height: 211.172px;
+}
+.Direitos h1{
+  text-align: center;
+  padding-top: 155px;
+  color: #f5f5f5;
+  font-size: 18px;
+  font-family: "Inter:Medium", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
